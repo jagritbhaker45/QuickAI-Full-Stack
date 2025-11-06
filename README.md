@@ -1,41 +1,58 @@
-# 🤖 AI SaaS Platform (PERN + Clerk + Neon + Stripe)
+# 🤖 QuickAI – AI SaaS Platform (PERN + Clerk + Neon + Stripe)
 
-This project is a **full-stack AI SaaS application** built with the **PERN stack** (PostgreSQL, Express.js, React.js, Node.js).  
-It offers AI-powered tools with **subscription-based billing**, making it a scalable SaaS solution.  
+QuickAI is a full-stack AI SaaS platform built using the **PERN stack (PostgreSQL, Express.js, React.js, Node.js)**.  
+It provides a suite of AI-powered tools with **subscription-based billing** for scalable and seamless user experiences.
 
 ---
 
 ## ✨ Key Features
-
-- 🔐 **User Authentication** – Secure sign-in, sign-up & profile management using **Clerk**  
-- 💳 **Subscription Billing** – Premium subscription system with **Stripe** integration  
-- 🗄️ **PostgreSQL Database** – Powered by **Neon serverless Postgres** for scalability  
-
----
-
-## 🤖 AI Features
-
-- 📝 **Article Generator** – Provide a title & length to generate articles using AI  
-- 📰 **Blog Title Generator** – Enter keywords & categories to generate catchy blog titles  
-- 🎨 **Image Generator** – Generate AI-based images from text prompts  
-- 🪄 **Background Remover** – Upload an image & get a transparent background instantly  
-- 🧹 **Image Object Remover** – Remove unwanted objects from uploaded images by specifying their name  
-- 📄 **Resume Analyzer** – Upload your resume & get a detailed AI-powered analysis  
+- 🔐 **User Authentication:** Secure sign-in, sign-up, and profile management with **Clerk**
+- 💳 **Subscription Billing:** Premium plans powered by **Stripe** integration
+- 🗄️ **Database:** Scalable **PostgreSQL** via **Neon serverless**
+- 🧠 **AI Tools:**
+  - 📝 Article Generator – Generate detailed articles using AI
+  - 📰 Blog Title Generator – Create catchy blog titles from keywords
+  - 🎨 Image Generator – Generate AI-based images from text prompts
+  - 🪄 Background Remover – Instantly remove image backgrounds
+  - 🧹 Object Remover – Remove unwanted objects from uploaded images
+  - 📄 Resume Analyzer – AI-powered resume analysis and insights
 
 ---
 
 ## 🛠️ Tech Stack
-
-**Frontend:** React.js, Tailwind CSS  
-**Backend:** Node.js, Express.js  
-**Database:** PostgreSQL (Neon)  
-**Authentication:** Clerk  
-**Payments:** Stripe (Subscriptions)  
-**AI Models:** Google Gemini / OpenAI / Stability (depending on use case)  
-**Deployment:** Vercel (frontend) + Render / Railway (backend) + Neon (database)  
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React.js, Tailwind CSS |
+| Backend | Node.js, Express.js |
+| Database | PostgreSQL (Neon) |
+| Authentication | Clerk |
+| Payments | Stripe (Subscriptions) |
+| AI Models | Google Gemini, OpenAI, Stability |
+| Deployment | Vercel (Frontend) + Render/Railway (Backend) + Neon (DB) |
 
 ---
 
-<img width="1351" height="581" alt="image" src="https://github.com/user-attachments/assets/a233bbba-b8ad-40b0-975c-2877c92dfb18" />
+## 🌐 Live Demo
+🔗 **[View App]((https://quick-ai-one-coral.vercel.app/))**
+
+
+
+## 📸 Screenshot
+
+<img width="1341" height="585" alt="image" src="https://github.com/user-attachments/assets/50313584-cbdd-493b-9d0a-9cdbef5f4478" />
+
+
+---
+
+## 📚 About
+This project demonstrates how to combine AI APIs, serverless databases, and subscription billing  
+to build a **production-grade SaaS application**.
+
+---
+
+## 👨‍💻 Author
+**Jagrit**  
+MTech Student | Full-Stack Developer | AI & Web Enthusiast  
+
 
 
