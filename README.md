@@ -1,8 +1,8 @@
 # QuickAI – AI SaaS Platform
 
-QuickAI is a production-ready AI SaaS platform built using the **PERN stack** (PostgreSQL, Express.js, React.js, Node.js) with Clerk authentication, Stripe subscription billing, and a Neon serverless database.
+QuickAI is a production-ready AI SaaS platform built using the PERN stack (PostgreSQL, Express.js, React.js, Node.js) with Clerk authentication, Stripe subscription billing, and a Neon serverless database.
 
-It provides a suite of AI-powered tools for content creation, image processing, and document analysis.
+It provides multiple AI-powered tools for content generation, image processing, and document analysis.
 
 ---
 
@@ -11,24 +11,24 @@ It provides a suite of AI-powered tools for content creation, image processing, 
 ### Authentication (Clerk)
 - Secure sign-in / sign-up
 - Profile management
-- Session handling and protected routes
+- Protected routes and session handling
 
 ### Subscription Billing (Stripe)
 - Monthly premium plans
 - Webhook-based subscription verification
-- Access control based on subscription state
+- Access control for paid features
 
 ### Database (Neon)
 - Serverless PostgreSQL
-- Fast, scalable, cloud-native
+- Cloud-native scaling and performance
 
 ### AI Tools Included
-- **Article Generator** – generate long-form content
-- **Blog Title Generator** – create titles from keywords
-- **AI Image Generator** – generate images from prompts
-- **Background Remover** – remove image backgrounds
-- **Object Remover** – remove unwanted objects from images
-- **Resume Analyzer** – AI-powered resume analysis & insights
+- Article Generator – generate long-form content
+- Blog Title Generator – create titles from keywords
+- AI Image Generator – generate images from prompts
+- Background Remover – remove image backgrounds
+- Object Remover – remove unwanted objects from images
+- Resume Analyzer – AI-powered resume insights
 
 ---
 
@@ -42,7 +42,7 @@ It provides a suite of AI-powered tools for content creation, image processing, 
 | Authentication  | Clerk                                           |
 | Payments        | Stripe Subscriptions                            |
 | AI Models       | Google Gemini, OpenAI, Stability                |
-| Deployment      | Vercel (Frontend), Render or Railway (Backend)  |
+| Deployment      | Vercel (Frontend), Render/Railway (Backend)     |
 
 ---
 
@@ -54,39 +54,37 @@ https://quick-ai-one-coral.vercel.app/
 
 ## Screenshot
 
-> Put the screenshot file in your repository (recommended path: `/assets/screenshot.png`) and use the relative path below.
->
-> If you use an external host for images, ensure the URL is correct and reachable.
+<!--
+If you want the screenshot to appear, place your image inside:
+assets/screenshot.png
+Then remove this comment block and uncomment the next line.
+-->
 
-![QuickAI Screenshot](/assets/screenshot.png)
+<!-- ![QuickAI Screenshot](assets/screenshot.png) -->
 
 ---
 
 ## My Contributions
-
-- Designed backend architecture with Express.js and PostgreSQL
-- Integrated Gemini, OpenAI, and Stability APIs for text and images
-- Implemented Stripe subscription flow with webhooks and access control
+- Designed backend architecture (Node.js + Express)
+- Integrated Gemini, OpenAI, and Stability APIs
+- Implemented Stripe subscription workflow with webhooks
 - Added Clerk authentication and protected routes
-- Built front-end UI using React + Tailwind CSS
-- Configured Neon PostgreSQL and optimized database queries
-- Implemented request batching and rate-limiting for AI API calls
+- Built UI with React and Tailwind CSS
+- Configured Neon PostgreSQL and optimized queries
+- Implemented usage limits and access control for premium features
 
 ---
 
 ## Local Setup
 
-1. Clone the repository:
-```bash
+1. Clone the repository
 git clone https://github.com/jagritbhaker45/QuickAI-Full-Stack.git
 cd QuickAI-Full-Stack
-Install dependencies:
 
+2. Install dependencies
 npm install
 
-
-Create a .env file in the repo root and add required variables:
-
+3. Create a .env file and add the required keys
 CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 STRIPE_KEY=
@@ -96,24 +94,12 @@ GEMINI_API_KEY=
 STABILITY_API_KEY=
 DATABASE_URL=
 
-
-Start the project:
-
+4. Start the development server
 npm run dev
-
-Future Improvements
-
-Add Retrieval-Augmented Generation (RAG) for context-aware responses
-
-Convert backend into microservices for better scaling
-
-Add analytics dashboard for usage metrics
-
-Add team/workspace support and user management
 
 Author
 
-Jagrit Bhaker
+Jagrit 
 M.Tech in Computer Science
 Full-Stack Developer | AI & Web Development Enthusiast
 
