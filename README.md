@@ -1,85 +1,91 @@
-QuickAI – AI SaaS Platform
+# QuickAI – AI SaaS Platform
 
-QuickAI is a production-ready AI SaaS platform built using the PERN stack (PostgreSQL, Express.js, React.js, Node.js) with Clerk authentication, Stripe subscription billing, and a Neon serverless database.
+QuickAI is a production-ready AI SaaS platform built using the **PERN stack** (PostgreSQL, Express.js, React.js, Node.js) with Clerk authentication, Stripe subscription billing, and a Neon serverless database.
 
 It provides a suite of AI-powered tools for content creation, image processing, and document analysis.
 
-Key Features
-Authentication
+---
 
-Secure sign-in/sign-up
+## Key Features
 
-Profile management
+### Authentication (Clerk)
+- Secure sign-in / sign-up
+- Profile management
+- Session handling and protected routes
 
-Session handling via Clerk
+### Subscription Billing (Stripe)
+- Monthly premium plans
+- Webhook-based subscription verification
+- Access control based on subscription state
 
-Subscription Billing
+### Database (Neon)
+- Serverless PostgreSQL
+- Fast, scalable, cloud-native
 
-Monthly premium plans
+### AI Tools Included
+- **Article Generator** – generate long-form content
+- **Blog Title Generator** – create titles from keywords
+- **AI Image Generator** – generate images from prompts
+- **Background Remover** – remove image backgrounds
+- **Object Remover** – remove unwanted objects from images
+- **Resume Analyzer** – AI-powered resume analysis & insights
 
-Stripe integration with webhook handling
+---
 
-Database
+## Tech Stack
 
-Serverless PostgreSQL using Neon
+| Category        | Technologies                                    |
+|-----------------|-------------------------------------------------|
+| Frontend        | React.js, Tailwind CSS                          |
+| Backend         | Node.js, Express.js                             |
+| Database        | PostgreSQL (Neon Serverless)                    |
+| Authentication  | Clerk                                           |
+| Payments        | Stripe Subscriptions                            |
+| AI Models       | Google Gemini, OpenAI, Stability                |
+| Deployment      | Vercel (Frontend), Render or Railway (Backend)  |
 
-Scalable and deployment-friendly
+---
 
-AI Tools Included
+## Live Demo
 
-Article Generator – generate long-form content
+https://quick-ai-one-coral.vercel.app/
 
-Blog Title Generator – create titles from keywords
+---
 
-AI Image Generator – generate images from prompts
+## Screenshot
 
-Background Remover – remove backgrounds instantly
+> Put the screenshot file in your repository (recommended path: `/assets/screenshot.png`) and use the relative path below.
+>
+> If you use an external host for images, ensure the URL is correct and reachable.
 
-Object Remover – delete unwanted objects from images
+![QuickAI Screenshot](/assets/screenshot.png)
 
-Resume Analyzer – AI-powered resume insights
+---
 
-Tech Stack
-Category	Technologies
-Frontend	React.js, Tailwind CSS
-Backend	Node.js, Express.js
-Database	PostgreSQL (Neon Serverless)
-Authentication	Clerk
-Payments	Stripe Subscriptions
-AI Models	Google Gemini, OpenAI, Stability
-Deployment	Vercel (Frontend), Render/Railway (Backend), Neon (DB)
-Live Demo
+## My Contributions
 
-🔗 https://quick-ai-one-coral.vercel.app/
+- Designed backend architecture with Express.js and PostgreSQL
+- Integrated Gemini, OpenAI, and Stability APIs for text and images
+- Implemented Stripe subscription flow with webhooks and access control
+- Added Clerk authentication and protected routes
+- Built front-end UI using React + Tailwind CSS
+- Configured Neon PostgreSQL and optimized database queries
+- Implemented request batching and rate-limiting for AI API calls
 
-Screenshot
+---
 
-My Contributions
+## Local Setup
 
-Designed backend architecture with Express.js
-
-Integrated Gemini, OpenAI, and Stability APIs
-
-Implemented Stripe subscription flow + webhooks
-
-Added Clerk authentication and route protection
-
-Built UI interfaces using React + Tailwind
-
-Configured Neon PostgreSQL
-
-Added usage limits and premium access logic
-Setup Instructions
-1. Clone the repo
+1. Clone the repository:
+```bash
 git clone https://github.com/jagritbhaker45/QuickAI-Full-Stack.git
 cd QuickAI-Full-Stack
+Install dependencies:
 
-2. Install dependencies
 npm install
 
-3. Add environment variables
 
-Create a .env file:
+Create a .env file in the repo root and add required variables:
 
 CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -90,12 +96,25 @@ GEMINI_API_KEY=
 STABILITY_API_KEY=
 DATABASE_URL=
 
-4. Run the app
+
+Start the project:
+
 npm run dev
+
+Future Improvements
+
+Add Retrieval-Augmented Generation (RAG) for context-aware responses
+
+Convert backend into microservices for better scaling
+
+Add analytics dashboard for usage metrics
+
+Add team/workspace support and user management
 
 Author
 
 Jagrit Bhaker
 M.Tech in Computer Science
 Full-Stack Developer | AI & Web Development Enthusiast
-📧 Email: jagritbhaker45@gmail.com
+
+Email: jagritbhaker45@gmail.com
