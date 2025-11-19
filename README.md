@@ -1,32 +1,46 @@
-🤖 QuickAI – AI SaaS Platform
+QuickAI – AI SaaS Platform
 
 QuickAI is a production-ready AI SaaS platform built using the PERN stack (PostgreSQL, Express.js, React.js, Node.js) with Clerk authentication, Stripe subscription billing, and a Neon serverless database.
+
 It provides a suite of AI-powered tools for content creation, image processing, and document analysis.
 
-✨ Key Features
+Key Features
+Authentication
 
-🔐 Authentication: Secure sign-in/sign-up and profile management with Clerk
+Secure sign-in/sign-up
 
-💳 Subscription Billing: Monthly premium plans integrated with Stripe
+Profile management
 
-🗄️ Database: Serverless PostgreSQL using Neon
+Session handling via Clerk
 
-🧠 AI Tools Included:
+Subscription Billing
 
-📝 Article Generator – Generate long-form AI articles
+Monthly premium plans
 
-📰 Blog Title Generator – Create catchy titles from keywords
+Stripe integration with webhook handling
 
-🎨 AI Image Generator – Generate images from text prompts
+Database
 
-🪄 Background Remover – Remove backgrounds instantly
+Serverless PostgreSQL using Neon
 
-🧹 Object Remover – Remove unwanted objects from uploaded images
+Scalable and deployment-friendly
 
-📄 Resume Analyzer – AI-driven resume evaluation & insights
+AI Tools Included
 
-🛠️ Tech Stack
-Category	Technology
+Article Generator – generate long-form content
+
+Blog Title Generator – create titles from keywords
+
+AI Image Generator – generate images from prompts
+
+Background Remover – remove backgrounds instantly
+
+Object Remover – delete unwanted objects from images
+
+Resume Analyzer – AI-powered resume insights
+
+Tech Stack
+Category	Technologies
 Frontend	React.js, Tailwind CSS
 Backend	Node.js, Express.js
 Database	PostgreSQL (Neon Serverless)
@@ -34,19 +48,54 @@ Authentication	Clerk
 Payments	Stripe Subscriptions
 AI Models	Google Gemini, OpenAI, Stability
 Deployment	Vercel (Frontend), Render/Railway (Backend), Neon (DB)
-🌐 Live Demo
+Live Demo
 
-🔗 View App
+🔗 https://quick-ai-one-coral.vercel.app/
 
-📸 Screenshot
-<img width="1341" height="585" alt="QuickAI Screenshot" src="https://github.com/user-attachments/assets/50313584-cbdd-493b-9d0a-9cdbef5f4478" />
-📚 About
+Screenshot
 
-QuickAI demonstrates how modern SaaS applications can combine AI APIs, serverless databases, and subscription billing to create a scalable, real-world, production-grade product.
-It highlights system design, full-stack development, API integration, and user-centric UI/UX.
+My Contributions
 
-👨‍💻 Author
+Designed backend architecture with Express.js
+
+Integrated Gemini, OpenAI, and Stability APIs
+
+Implemented Stripe subscription flow + webhooks
+
+Added Clerk authentication and route protection
+
+Built UI interfaces using React + Tailwind
+
+Configured Neon PostgreSQL
+
+Added usage limits and premium access logic
+Setup Instructions
+1. Clone the repo
+git clone https://github.com/jagritbhaker45/QuickAI-Full-Stack.git
+cd QuickAI-Full-Stack
+
+2. Install dependencies
+npm install
+
+3. Add environment variables
+
+Create a .env file:
+
+CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+STRIPE_KEY=
+STRIPE_WEBHOOK_SECRET=
+OPENAI_API_KEY=
+GEMINI_API_KEY=
+STABILITY_API_KEY=
+DATABASE_URL=
+
+4. Run the app
+npm run dev
+
+Author
 
 Jagrit Bhaker
 M.Tech in Computer Science
 Full-Stack Developer | AI & Web Development Enthusiast
+📧 Email: jagritbhaker45@gmail.com
