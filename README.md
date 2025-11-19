@@ -102,7 +102,7 @@ npm run dev
 
 Author
 
- Jagrit 
+ Jagrit |
  M.Tech in Computer Science
  Full-Stack Developer | AI & Web Development Enthusiast
 
