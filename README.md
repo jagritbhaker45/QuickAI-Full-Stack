@@ -52,17 +52,20 @@ https://quick-ai-one-coral.vercel.app/
 
 ---
 
-## Screenshot
+## Screenshots
 
-<!--
-If you want the screenshot to appear, place your image inside:
-assets/screenshot.png
-Then remove this comment block and uncomment the next line.
--->
+### Home Page
+<img width="1332" height="605" alt="Screenshot 2025-11-17 152942" src="https://github.com/user-attachments/assets/9a73e9ba-2ca1-4651-ab71-9289b177c54c" />
 
-<!-- ![QuickAI Screenshot](assets/screenshot.png) -->
 
----
+### Dashboard
+<img width="1365" height="595" alt="Screenshot 2025-11-17 151757" src="https://github.com/user-attachments/assets/bfe1b3b4-5088-43da-bee0-46b4ee814487" />
+
+
+### Article Generator Example
+<img width="1332" height="605" alt="Screenshot 2025-11-17 152942" src="https://github.com/user-attachments/assets/bc1db59a-a65a-4592-9501-66e4ff4f3056" />
+
+
 
 ## My Contributions
 - Designed backend architecture (Node.js + Express)
@@ -99,8 +102,8 @@ npm run dev
 
 Author
 
-Jagrit 
-M.Tech in Computer Science
-Full-Stack Developer | AI & Web Development Enthusiast
+ Jagrit 
+ M.Tech in Computer Science
+ Full-Stack Developer | AI & Web Development Enthusiast
 
-Email: jagritbhaker45@gmail.com
+ Email: jagritbhaker45@gmail.com
