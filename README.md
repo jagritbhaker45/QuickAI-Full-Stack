@@ -80,7 +80,7 @@ https://quick-ai-one-coral.vercel.app/
 
 Author
 
- Jagrit 
+ Jagrit |
  Full-Stack Developer | AI & Web Development Enthusiast
 
  Email: jagritbhaker45@gmail.com
