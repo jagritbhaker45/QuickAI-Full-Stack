@@ -78,32 +78,9 @@ https://quick-ai-one-coral.vercel.app/
 
 ---
 
-## Local Setup
-
-1. Clone the repository
-git clone https://github.com/jagritbhaker45/QuickAI-Full-Stack.git
-cd QuickAI-Full-Stack
-
-2. Install dependencies
-npm install
-
-3. Create a .env file and add the required keys
-CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-STRIPE_KEY=
-STRIPE_WEBHOOK_SECRET=
-OPENAI_API_KEY=
-GEMINI_API_KEY=
-STABILITY_API_KEY=
-DATABASE_URL=
-
-4. Start the development server
-npm run dev
-
 Author
 
- Jagrit |
- M.Tech in Computer Science
+ Jagrit 
  Full-Stack Developer | AI & Web Development Enthusiast
 
  Email: jagritbhaker45@gmail.com
